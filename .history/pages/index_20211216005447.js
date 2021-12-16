@@ -16,6 +16,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
+			<Login />
 			<button onClick={logout}>Logout</button>
 		</div>
 	);
