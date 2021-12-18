@@ -22,8 +22,6 @@ export default function Home() {
 				<Header />
 				<Messages />
 			</div>
-
-			<button onClick={logout}>Logout</button>
 		</div>
 	);
 }

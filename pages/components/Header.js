@@ -4,7 +4,7 @@ import Avatar from "./Avatar";
 import ChangeUsername from "./ChangeUsername";
 
 function Header() {
-	const { user, logoutOnPress } = useMoralis();
+	const { user } = useMoralis();
 
 	return (
 		<div className="text-pink-500 sticky top-0 p-5 z-50 bg-black shadow-sm border-b-2 border-pink-700 ">
