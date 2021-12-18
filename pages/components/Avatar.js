@@ -12,7 +12,6 @@ function Avatar({ username, logoutOnPress }) {
 			}.svg`}
 			layout="fill"
 			onClick={() => logoutOnPress && logout()}
-			priority
 		/>
 	);
 }
